@@ -25,3 +25,6 @@ lib-cov
 coverage
 .grunt
 .lock-wscript
+.vscode
+.gitignore
+3_HEAD_VER
