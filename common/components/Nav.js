@@ -8,27 +8,22 @@ const Nav = () => (
         <IndexLink to = '/' 
             className={css(styles.link)}
             activeClassName={css(styles.link, styles.activeLink)} 
-        > Home </IndexLink>
+        >About</IndexLink>
         
-        <a href='https://ev-dev.github.io/fullstack-guessing-game'
+        <a href='https://google.com'
             className={css(styles.link)}
-            target='_blank'
-        > Guessing Game </a>
+            target = '_blank'
+        >Projects</a> 
 
         <Link to='/posts'
             className={css(styles.link)}
             activeClassName={css(styles.link, styles.activeLink)}
-        > Feed </Link>
+        >Blog</Link>
 
-        <a href='https://github.com/ev-dev/isomorphic-react-testing'
+        <a href='https://github.com/ev-dev'
             className={css(styles.link)}
             target='_blank'
-        > GitHub </a>
-        
-        <a href='https://twitter.com'
-            className={css(styles.link)}
-            target = '_blank'
-        > Twitter </a> 
+        >GitHub</a>     
     </div>
 )
 

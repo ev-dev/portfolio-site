@@ -5,11 +5,11 @@ import { StyleSheet, css } from 'aphrodite'
 
 const App = ({ children }) => (
   <div className={css(styles.root)}>
-    <Helmet title='React Server Test' titleTemplate='%s - Production Build' />
-    <h1 className={css(styles.title)}>Live Testing</h1>
+    <Helmet title='Home Page' titleTemplate='%s - Developer Portfolio for Evan Reed' />
+    <h1 className={css(styles.title)}>Evan Reed</h1>
     <Nav />
     {children}
-    <h3 className={css(styles.footer)}>Isomorphic React Testing</h3>
+    <h3 className={css(styles.footer)}>Personal Outlet For All Things JavaScript</h3>
     <h5 className={css(styles.footer)}>Created by Evan Reed</h5>
   </div>
 )
