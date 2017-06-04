@@ -17,7 +17,7 @@ const Home = (props) => (
       This project tries to implement some of the latest buzzwords (go figure) and provides a consistent enviroment for all kinds of testing... Currently, the project only consists of this homepage, and a sample newsfeed page linked above. The "application" is isomorphic and uses <em>React</em> bundled with <em>Webpack</em> which gives it a speedy load time independent of the client. The app also uses both <em>Redux</em> and <em>React Router</em> to provide a decent user experience. The remaining libraries used in this project are listed below.
     </p>
         
-    <h2 className={css(styles.header)}>JavaScript Technologies</h2>
+    <h2 className={css(styles.header)}>Latest Projects</h2>
     <ul className={css(styles.list)}>
       {data.map((item, i) => (
         <li key={i}>
