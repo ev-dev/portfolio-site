@@ -10,7 +10,7 @@ const Nav = () => (
             activeClassName={css(styles.link, styles.activeLink)} 
         >About</IndexLink>
         
-        <a href='https://google.com'
+        <a href='https://github.com/ev-dev'
             className={css(styles.link)}
             target = '_blank'
         >Projects</a> 
