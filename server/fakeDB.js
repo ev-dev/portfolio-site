@@ -1,4 +1,11 @@
-const fakeDB = [{
+const fakeDB = [
+	{
+		id: '3889sgai',
+		title: 'JavaScript Journey',
+		slug: 'JavaScript Journey',
+		content: 'Why are you attending Fullstack?\nWhy the career change?\nWork history?\nMotivation?\nOther Questions?\n'		
+	},
+	{
         id: 'abcd190d',
         title: 'ExampleJS',
         slug: 'ExampleJS Docs Assistant',
