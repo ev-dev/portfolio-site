@@ -9,6 +9,7 @@
     "start": "cross-env NODE_ENV=development node -r \"babel-register\" ./server",
     "start:prod": "cross-env NODE_ENV=production node ./build/server.js",
     "heroku-postbuild": "npm run build",
+    "dev": "webpack -p --config ./tools/webpack.client.dev.js",
     "build": "webpack -p --config ./tools/webpack.client.prod.js && webpack -p --config ./tools/webpack.server.prod.js",
     "clean": "rm -rf build"
   },
