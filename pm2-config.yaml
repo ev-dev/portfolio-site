@@ -1,5 +1,5 @@
 apps:
-  - script: npm run start:prod
+  - script: ./build/server.js
     name: 'portfolio-site'
     watch: true
     env:

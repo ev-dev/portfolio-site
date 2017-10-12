@@ -1,7 +1,7 @@
 const config = {
   nodeEnv: process.env.NODE_ENV,
   webConcurrency: process.env.WEB_CONCURRENCY || 1,
-  port: 3001,
+  port: 8000,
   timeout: 29000
 }
 
